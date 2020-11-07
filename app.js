@@ -13,3 +13,7 @@
 //toBe is a specific value, expect."" is of a type
 
 //for challenge - inquier, unit 6 , jest testing
+
+const Game = require('./lib/Game');
+
+new Game().initializeGame();
